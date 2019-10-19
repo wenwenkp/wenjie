@@ -30,35 +30,50 @@ const About = () => {
                 About
             </div>
             <div className="about--avatar">
-                <img src={avatar} alt="My Avatar"/>
+                <img src={avatar} alt="My Avatar" />
             </div>
             <div className="about--skills">
-                <img className="about--skill1" src={bootstrap}/>
-                <img className="about--skill1" src={c}/>
-                <img className="about--skill1" src={css}/>
-                <img className="about--skill1" src={django}/>
-                <img className="about--skill1" src={git}/>
-                <img className="about--skill1" src={github}/>
-                <img className="about--skill1" src={heroku}/>
-                <img className="about--skill1" src={html}/>
-                <img className="about--skill1" src={java}/>
-                <img className="about--skill1" src={jquery}/>
-                <img className="about--skill1" src={js}/>
-                <img className="about--skill1" src={mongodb}/>
-                <img className="about--skill1" src={node}/>
-                <img className="about--skill1" src={npm}/>
-                <img className="about--skill1" src={psql}/>
-                <img className="about--skill1" src={react}/>
-                <img className="about--skill1" src={sass}/>
-                <img className="about--skill1" src={express}/>
-                <img className="about--skill1" src={python}/>
-                <img className="about--skill1" src={soccer}/>
+                <img className="about--skill1" src={bootstrap} />
+                <img className="about--skill1" src={c} />
+                <img className="about--skill1" src={css} />
+                <img className="about--skill1" src={django} />
+                <img className="about--skill1" src={git} />
+                <img className="about--skill1" src={github} />
+                <img className="about--skill1" src={heroku} />
+                <img className="about--skill1" src={html} />
+                <img className="about--skill1" src={java} />
+                <img className="about--skill1" src={jquery} />
+                <img className="about--skill1" src={js} />
+                <img className="about--skill1" src={mongodb} />
+                <img className="about--skill1" src={node} />
+                <img className="about--skill1" src={npm} />
+                <img className="about--skill1" src={psql} />
+                <img className="about--skill1" src={react} />
+                <img className="about--skill1" src={sass} />
+                <img className="about--skill1" src={express} />
+                <img className="about--skill1" src={python} />
+                <img className="about--skill1" src={soccer} />
             </div>
             <div className="about--intro1">
-                intro 1
+                <p>
+                    Wenjie is a Web Developer with strong foundation knowledge in front-end and back-end. He started to develop his web-development skills at the University of Massachusetts, and strengthen his skills in General Assembly, San Francisco campus as a full-stack developer.
+                </p>
+                <p>
+                    With his previous education background in hospitality management and his working experience in the healthcare industry, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs, and he is a person who would like to go the extra mile to complete the work. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
+                </p>
             </div>
             <div className="about--intro2">
-                intro 2
+                <p>
+                    <h4>Technical Skills & Tools</h4>
+                    <h5>Language & Frameworks</h5>
+                    JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, Css3, Sass, jQuery, Java, C, Third-Party APIs
+                    <h5>Management & Deployment</h5>
+                    Git, GitHub, Heroku
+                    <h5>Database</h5>
+                    MongoDB, Mongoose, PostgreSQL
+                    <h5>Methodologies</h5>
+                    Object Oriented Programming, MVC Pattern, Responsive Design, Authentication
+                </p>
             </div>
         </div>
     )

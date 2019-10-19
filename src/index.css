@@ -73,12 +73,12 @@ body {
     grid-row: 3 / 5;
     grid-column: 3 / 4;
     justify-self: center;
-    align-self: center; }
+    align-self: start; }
   .about--intro2 {
     grid-row: 5 / 7;
     grid-column: 3/ 4;
     justify-self: center;
-    align-self: center; }
+    align-self: start; }
 
 .projects {
   height: 100vh;
