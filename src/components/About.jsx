@@ -1,4 +1,5 @@
 import React from 'react';
+import avatar from '../sass/images/myAvatar.png';
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                 About
             </div>
             <div className="about--avatar">
-                avatar
+                <img src={avatar} alt="My Avatar"/>
             </div>
             <div className="about--skills">
                 skill icons

@@ -45,6 +45,11 @@
         grid-column: icon-start / icon-end;
         justify-self: center;
         align-self: center;
+
+        & img {
+            border-radius: 50%;
+            width: 10rem;
+        }
     }
 
     &--skills {

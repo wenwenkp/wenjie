@@ -58,6 +58,9 @@ body {
     grid-column: icon-start / icon-end;
     justify-self: center;
     align-self: center; }
+    .about--avatar img {
+      border-radius: 50%;
+      width: 10rem; }
   .about--skills {
     grid-row: icon-start / icon-end;
     grid-column: icon-start / icon-end;
