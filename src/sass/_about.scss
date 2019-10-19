@@ -1,0 +1,71 @@
+.about {
+    height: 100vh;
+    background-color: lightblue;
+
+    display: grid;
+    grid-template-rows: 
+        [out-start]
+            minmax(1rem, .3fr)
+            [title-start]
+                minmax(3rem, .5fr)
+            [title-end content-start]
+                minmax(4rem, .7fr)
+            [content-end icon-start]
+                repeat(3, minmax(6rem, 1fr))
+            [icon-end]
+            minmax(1rem, .3fr)
+        [out-end];
+    grid-template-columns: 
+        [full-start] 
+            minmax(3rem, 1fr) 
+            [icon-start]
+                minmax(12rem, 2fr)
+            [icon-end intro-start]
+                minmax(12rem, 2fr)
+            [intro-end]
+            minmax(3rem, 1fr)
+        [full-start];    
+
+    &--tag {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: start;
+        align-self: start;
+    }
+
+    &--title {
+        grid-row: title-start / title-end;
+        grid-column: icon-start / intro-end;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &--avatar {
+        grid-row: content-start / content-end;
+        grid-column: icon-start / icon-end;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &--skills {
+        grid-row: icon-start / icon-end;
+        grid-column: icon-start / icon-end;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &--intro1 {
+        grid-row: 3 / 5;
+        grid-column: 3 / 4;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &--intro2 {
+        grid-row: 5 / 7;
+        grid-column: 3/ 4;
+        justify-self: center;
+        align-self: center;
+    }
+    
+}

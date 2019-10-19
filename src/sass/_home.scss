@@ -1,0 +1,27 @@
+.home {
+    background-color: lightpink;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(2rem, .5fr) 2fr minmax(2rem, .5fr);
+
+    &--main {
+     justify-self: center;
+     align-self: center;   
+     grid-row: 1 / -1;
+     grid-column: 2 / 3;
+    }
+
+    &--primary {
+        font-weight: 700;
+    }
+
+    &--secondary {
+        display: block;
+        color: grey;
+        font-size: 1.25rem;
+        font-weight: 300;
+        padding: .5rem 0 1rem 0;
+        line-height: 1.3;
+    }
+}
