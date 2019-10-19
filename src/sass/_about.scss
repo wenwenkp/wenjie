@@ -58,6 +58,10 @@
         justify-self: center;
         align-self: center;
     }
+    &--skills > * {
+        width: 10rem;
+        padding: 1rem;
+    }
 
     &--intro1 {
         grid-row: 3 / 5;

@@ -66,6 +66,9 @@ body {
     grid-column: icon-start / icon-end;
     justify-self: center;
     align-self: center; }
+  .about--skills > * {
+    width: 10rem;
+    padding: 1rem; }
   .about--intro1 {
     grid-row: 3 / 5;
     grid-column: 3 / 4;
