@@ -113,4 +113,27 @@ body {
 
 .contact {
   height: 96vh;
-  background-color: lightcoral; }
+  background-color: lightcoral;
+  display: grid;
+  grid-template-rows: [out-start] minmax(1rem, 0.3fr) [title-start] minmax(3rem, 0.5fr) [title-end form-start] minmax(6rem, 2.5fr) [form-end social-start] minmax(3rem, 1.5fr) [social-end] minmax(1rem, 0.3fr) [out-end];
+  grid-template-columns: [full-start] minmax(3rem, 1fr) [contact-start] minmax(12rem, 4fr) [contact-end] minmax(3rem, 1fr) [full-start]; }
+  .contact--tag {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    justify-self: start;
+    align-self: start; }
+  .contact--title {
+    grid-row: title-start / title-end;
+    grid-column: contact-start / contact-end;
+    justify-self: center;
+    align-self: center; }
+  .contact--form {
+    grid-row: form-start / form-end;
+    grid-column: contact-start / contact-end;
+    justify-self: center;
+    align-self: center; }
+  .contact--find {
+    grid-row: social-start / social-end;
+    grid-column: contact-start / contact-end;
+    justify-self: center;
+    align-self: center; }
