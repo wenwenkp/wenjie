@@ -90,3 +90,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 <a target="_blank" href="https://icons8.com/icons/set/postgreesql">PostgreSQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icons/set/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icons/set/football">Soccer</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icons/set/linkedin--v2">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icons/set/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
