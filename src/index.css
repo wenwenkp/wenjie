@@ -74,11 +74,15 @@ body {
     grid-column: 3 / 4;
     justify-self: center;
     align-self: start; }
+    .about--intro1 p {
+      padding: 2rem; }
   .about--intro2 {
     grid-row: 5 / 7;
     grid-column: 3/ 4;
     justify-self: center;
     align-self: start; }
+    .about--intro2 p {
+      padding: 2rem; }
 
 .projects {
   height: 100vh;

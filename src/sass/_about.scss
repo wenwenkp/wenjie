@@ -68,6 +68,10 @@
         grid-column: 3 / 4;
         justify-self: center;
         align-self: start;
+
+        p {
+            padding: 2rem;
+        }
     }
 
     &--intro2 {
@@ -75,6 +79,10 @@
         grid-column: 3/ 4;
         justify-self: center;
         align-self: start;
+
+        p {
+            padding: 2rem;
+        }
     }
     
 }
