@@ -1,25 +1,27 @@
 .projects {
-    height: 100vh;
+    // height: 100vh;
     background-color: lightgoldenrodyellow;
 
     display: grid;
+    row-gap: 1rem;
     grid-template-rows: 
         [out-start]
             minmax(1rem, .3fr)
             [title-start]
                 minmax(3rem, .5fr)
             [title-end project-start]
-                repeat(4, minmax(6rem, 1fr))
+                repeat(4, minmax(12rem, 1fr))
             [project-end]
             minmax(1rem, .3fr)
         [out-end];
     grid-template-columns: 
         [full-start] 
-            minmax(3rem, 1fr) 
+            minmax(1.5rem, .5fr) 
             [project-start]
-                minmax(12rem, 4fr)
+                minmax(9rem, 2.5fr)
+                minmax(3rem, auto)
             [project-end]
-            minmax(3rem, 1fr)
+            minmax(1.5rem, .5fr)
         [full-start];   
         
     &--tag {
@@ -41,22 +43,34 @@
         grid-column: 2 / 3;
         justify-self: center;
         align-self: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem 0 0 2rem;
+        background-color: lightcoral;
+
+        &--img {
+            grid-row: 3 / 4;
+            grid-column: 3 / 4;
+                border-radius: 0 2rem 2rem 0;
+        }
     }
+
+
     &--p2 {
         grid-row: 4 / 5;
-        grid-column: 2 / 3;
+        grid-column: 2 / 4;
         justify-self: center;
         align-self: center;
     }
     &--p3 {
         grid-row: 5 / 6;
-        grid-column: 2 / 3;
+        grid-column: 2 / 4;
         justify-self: center;
         align-self: center;
     }
     &--p1 {
         grid-row: 6 / 7;
-        grid-column: 2 / 3;
+        grid-column: 2 / 4;
         justify-self: center;
         align-self: center;
     }
