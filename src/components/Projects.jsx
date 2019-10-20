@@ -6,26 +6,85 @@ const Projects = () => {
             <a name="projects--tag"></a>
             <div className="projects--title">Projects</div>
             <div className="projects--p4">
-                <h1>MovieGuy</h1>
-                <ul>
-                    <li>
-                    Offer movie search and exploration for user, user can save movies as favourite.
-                    </li>
-                    <li>
-                    A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
-                    </li>
-                    <li>
-                    Used animations to improve user experience.
-                    </li>
-                </ul>
-                <a href="#">Open source on GitHub</a>
-                <a href="#">Launch Site</a>
+                <div className="projects--p4--content">
+                    <h1>MovieGuy</h1>
+                    <ul>
+                        <li>
+                            Offer movie search and exploration for user, user can save movies as favourite.
+                        </li>
+                        <li>
+                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                        </li>
+                        <li>
+                            Used animations to improve user experience.
+                        </li>
+                    </ul>
+                    <a href="#">Open source on GitHub</a>
+                    <a href="#">Launch Site</a>
+                </div>
+                <img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" />
             </div>
-            <img className="projects--p4--img" src="https://media.giphy.com/media/Ih6uczYa6PcnrK3Duz/giphy.gif" alt="movieguy"/>
 
-            <div className="projects--p2">projects 2</div>
-            <div className="projects--p3">projects 3</div>
-            <div className="projects--p1">projects 1</div>
+            <div className="projects--p3">
+                <div className="projects--p3--content">
+                    <h1>MovieGuy</h1>
+                    <ul>
+                        <li>
+                            Offer movie search and exploration for user, user can save movies as favourite.
+                        </li>
+                        <li>
+                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                        </li>
+                        <li>
+                            Used animations to improve user experience.
+                        </li>
+                    </ul>
+                    <a href="#">Open source on GitHub</a>
+                    <a href="#">Launch Site</a>
+                </div>
+                <img className="projects--p3--img" src="https://i.imgur.com/a1uIEDP.png" alt="movieguy" />
+            </div>
+
+            <div className="projects--p2">
+                <div className="projects--p2--content">
+                    <h1>MovieGuy</h1>
+                    <ul>
+                        <li>
+                            Offer movie search and exploration for user, user can save movies as favourite.
+                        </li>
+                        <li>
+                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                        </li>
+                        <li>
+                            Used animations to improve user experience.
+                        </li>
+                    </ul>
+                    <a href="#">Open source on GitHub</a>
+                    <a href="#">Launch Site</a>
+                </div>
+                <img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" />
+            </div>
+
+            <div className="projects--p1">
+                <div className="projects--p1--content">
+                    <h1>MovieGuy</h1>
+                    <ul>
+                        <li>
+                            Offer movie search and exploration for user, user can save movies as favourite.
+                        </li>
+                        <li>
+                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                        </li>
+                        <li>
+                            Used animations to improve user experience.
+                        </li>
+                    </ul>
+                    <a href="#">Open source on GitHub</a>
+                    <a href="#">Launch Site</a>
+                </div>
+                <img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" />
+            </div>
+
         </div>
     )
 }
