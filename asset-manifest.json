@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wenjie/static/css/main.3c340678.chunk.css",
+    "main.css": "/wenjie/static/css/main.679e5858.chunk.css",
     "main.js": "/wenjie/static/js/main.c0241378.chunk.js",
     "main.js.map": "/wenjie/static/js/main.c0241378.chunk.js.map",
     "runtime-main.js": "/wenjie/static/js/runtime-main.09e78589.js",
@@ -9,10 +9,10 @@
     "static/js/2.179db5a6.chunk.js": "/wenjie/static/js/2.179db5a6.chunk.js",
     "static/js/2.179db5a6.chunk.js.map": "/wenjie/static/js/2.179db5a6.chunk.js.map",
     "index.html": "/wenjie/index.html",
-    "precache-manifest.9142a084124bb41c1d04fc067a2f408b.js": "/wenjie/precache-manifest.9142a084124bb41c1d04fc067a2f408b.js",
+    "precache-manifest.2b525191c642a9aa03f2aac296719024.js": "/wenjie/precache-manifest.2b525191c642a9aa03f2aac296719024.js",
     "service-worker.js": "/wenjie/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/wenjie/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.3c340678.chunk.css.map": "/wenjie/static/css/main.3c340678.chunk.css.map",
+    "static/css/main.679e5858.chunk.css.map": "/wenjie/static/css/main.679e5858.chunk.css.map",
     "static/media/c.png": "/wenjie/static/media/c.1c1888a3.png",
     "static/media/css.png": "/wenjie/static/media/css.5c4e16ce.png",
     "static/media/django.png": "/wenjie/static/media/django.4a581c98.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.09e78589.js",
     "static/css/2.0624914a.chunk.css",
     "static/js/2.179db5a6.chunk.js",
-    "static/css/main.3c340678.chunk.css",
+    "static/css/main.679e5858.chunk.css",
     "static/js/main.c0241378.chunk.js"
   ]
 }
