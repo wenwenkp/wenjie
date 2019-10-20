@@ -5,8 +5,8 @@ const Projects = () => {
         <div className="projects">
             <a name="projects--tag"></a>
             <div className="projects--title">Projects</div>
-            <div className="projects--p4">
-                <div className="projects--p4--content">
+            {/* <div className="projects--p4"> */}
+                <div className="projects--p4">
                     <h1>MovieGuy</h1>
                     <ul>
                         <li>
@@ -23,67 +23,70 @@ const Projects = () => {
                     <a href="#">Launch Site</a>
                 </div>
                 <img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" />
-            </div>
+            {/* </div> */}
 
-            <div className="projects--p3">
-                <div className="projects--p3--content">
-                    <h1>MovieGuy</h1>
+            {/* <div className="projects--p3"> */}
+                <div className="projects--p3">
+                    <h1>Tasty</h1>
                     <ul>
                         <li>
-                            Offer movie search and exploration for user, user can save movies as favourite.
+                            Developed web application within a 3-members development team for restaurant owners to create their own online menus and for customers to explore.
                         </li>
                         <li>
-                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                            Set up API for classmates’ to use as a database in their projects.
                         </li>
                         <li>
-                            Used animations to improve user experience.
+                            Participated in building the backend mainly, models set up, search function, GoogleMap API, AmazonS3 set up, users authentication.
+                        </li>
+                        <li>
+                            A full-stack web application, developed with Python3, Django, PostgreSQL, AmazonS3, GoogleMap API. Deployed project in Heroku.
                         </li>
                     </ul>
                     <a href="#">Open source on GitHub</a>
                     <a href="#">Launch Site</a>
                 </div>
                 <img className="projects--p3--img" src="https://i.imgur.com/a1uIEDP.png" alt="movieguy" />
-            </div>
+            {/* </div> */}
 
-            <div className="projects--p2">
-                <div className="projects--p2--content">
-                    <h1>MovieGuy</h1>
+            {/* <div className="projects--p2"> */}
+                <div className="projects--p2">
+                    <h1>My Team</h1>
                     <ul>
                         <li>
-                            Offer movie search and exploration for user, user can save movies as favourite.
+                            A full-stack web application for users to create or join a soccer team.
                         </li>
                         <li>
-                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                            Developed with JavaScript, Node.js, Express, Bootstrap, MongoDB, Google OAuth. Deployed project in Heroku.
                         </li>
                         <li>
-                            Used animations to improve user experience.
+                            Collaborated with designer as a team to complete project.
                         </li>
                     </ul>
                     <a href="#">Open source on GitHub</a>
                     <a href="#">Launch Site</a>
                 </div>
                 <img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" />
-            </div>
+            {/* </div> */}
 
-            <div className="projects--p1">
-                <div className="projects--p1--content">
-                    <h1>MovieGuy</h1>
+            {/* <div className="projects--p1"> */}
+                <div className="projects--p1">
+                    <h1>Black Jack</h1>
                     <ul>
                         <li>
-                            Offer movie search and exploration for user, user can save movies as favourite.
+                            Built browser based Black-Jack game.
                         </li>
                         <li>
-                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                            Developed with HTML5, CSS3 and JavaScript.
                         </li>
                         <li>
-                            Used animations to improve user experience.
+                            Deployed game in GitHub.
                         </li>
                     </ul>
                     <a href="#">Open source on GitHub</a>
                     <a href="#">Launch Site</a>
                 </div>
                 <img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" />
-            </div>
+            {/* </div> */}
 
         </div>
     )
