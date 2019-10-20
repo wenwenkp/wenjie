@@ -1,5 +1,5 @@
 .contact {
-    height: 96vh;
+    height: 50vh;
     background-color: lightcoral;
 
     display: grid;
@@ -8,18 +8,18 @@
             minmax(1rem, .3fr)
             [title-start]
                 minmax(3rem, .5fr)
-            [title-end form-start]
-                minmax(6rem, 2.5fr)
-            [form-end social-start]
-                minmax(3rem, 1.5fr)
-            [social-end]
+            [title-end find-start]
+                minmax(3rem, 2fr)
+            [find-end foot-start]
+                minmax(1rem, .5fr)
+            [foot-end]
             minmax(1rem, .3fr)
         [out-end];
     grid-template-columns: 
         [full-start] 
             minmax(3rem, 1fr) 
             [contact-start]
-                minmax(12rem, 4fr)
+                minmax(3rem, 2fr)
             [contact-end]
             minmax(3rem, 1fr)
         [full-start]; 
@@ -38,18 +38,32 @@
         align-self: center;
     }
 
-    &--form {
-        grid-row: form-start / form-end;
+    &--find {
+        grid-row: find-start / find-end;
         grid-column: contact-start / contact-end;
-        justify-self: center;
+        justify-content: space-around;
         align-self: center;
+        display: flex;
+        text-align: center;
+
+        &--linkedin img {
+            width: 7rem;
+        }
+        &--github img {
+            width: 7rem;
+        }
+        &--email img {
+            width: 7rem;
+        }
     }
 
-    &--find {
-        grid-row: social-start / social-end;
-        grid-column: contact-start / contact-end;
-        justify-self: center;
-        align-self: center;
+    &--footer {
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+        text-align: center;
+        border-top: solid black .1rem;
+        width: 100%;
+        padding-top: 3rem;
     }
     
 }
