@@ -1,24 +1,40 @@
 {
   "files": {
-    "main.css": "/wenjie/static/css/main.34731ac6.chunk.css",
-    "main.js": "/wenjie/static/js/main.33f26bd7.chunk.js",
-    "main.js.map": "/wenjie/static/js/main.33f26bd7.chunk.js.map",
+    "main.css": "/wenjie/static/css/main.3c340678.chunk.css",
+    "main.js": "/wenjie/static/js/main.c0241378.chunk.js",
+    "main.js.map": "/wenjie/static/js/main.c0241378.chunk.js.map",
     "runtime-main.js": "/wenjie/static/js/runtime-main.09e78589.js",
     "runtime-main.js.map": "/wenjie/static/js/runtime-main.09e78589.js.map",
     "static/css/2.0624914a.chunk.css": "/wenjie/static/css/2.0624914a.chunk.css",
-    "static/js/2.31f37160.chunk.js": "/wenjie/static/js/2.31f37160.chunk.js",
-    "static/js/2.31f37160.chunk.js.map": "/wenjie/static/js/2.31f37160.chunk.js.map",
+    "static/js/2.179db5a6.chunk.js": "/wenjie/static/js/2.179db5a6.chunk.js",
+    "static/js/2.179db5a6.chunk.js.map": "/wenjie/static/js/2.179db5a6.chunk.js.map",
     "index.html": "/wenjie/index.html",
-    "precache-manifest.f75f5be6ff6b6ef4247b0ff7a35d8590.js": "/wenjie/precache-manifest.f75f5be6ff6b6ef4247b0ff7a35d8590.js",
+    "precache-manifest.9142a084124bb41c1d04fc067a2f408b.js": "/wenjie/precache-manifest.9142a084124bb41c1d04fc067a2f408b.js",
     "service-worker.js": "/wenjie/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/wenjie/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.34731ac6.chunk.css.map": "/wenjie/static/css/main.34731ac6.chunk.css.map"
+    "static/css/main.3c340678.chunk.css.map": "/wenjie/static/css/main.3c340678.chunk.css.map",
+    "static/media/c.png": "/wenjie/static/media/c.1c1888a3.png",
+    "static/media/css.png": "/wenjie/static/media/css.5c4e16ce.png",
+    "static/media/django.png": "/wenjie/static/media/django.4a581c98.png",
+    "static/media/express.png": "/wenjie/static/media/express.98ff4822.png",
+    "static/media/git.png": "/wenjie/static/media/git.036bf7c4.png",
+    "static/media/github.png": "/wenjie/static/media/github.53a20ba5.png",
+    "static/media/java.png": "/wenjie/static/media/java.458aa802.png",
+    "static/media/jquery.png": "/wenjie/static/media/jquery.71eea9c9.png",
+    "static/media/linkedin.png": "/wenjie/static/media/linkedin.59ae856a.png",
+    "static/media/mongodb.png": "/wenjie/static/media/mongodb.8d95890a.png",
+    "static/media/myAvatar.png": "/wenjie/static/media/myAvatar.fa5fc5d2.png",
+    "static/media/node.png": "/wenjie/static/media/node.b73453c6.png",
+    "static/media/psql.png": "/wenjie/static/media/psql.03c4e1f6.png",
+    "static/media/python.png": "/wenjie/static/media/python.b3efce84.png",
+    "static/media/react.png": "/wenjie/static/media/react.b404398f.png",
+    "static/media/sass.png": "/wenjie/static/media/sass.50667875.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09e78589.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.31f37160.chunk.js",
-    "static/css/main.34731ac6.chunk.css",
-    "static/js/main.33f26bd7.chunk.js"
+    "static/js/2.179db5a6.chunk.js",
+    "static/css/main.3c340678.chunk.css",
+    "static/js/main.c0241378.chunk.js"
   ]
 }
