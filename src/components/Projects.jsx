@@ -12,7 +12,7 @@ const Projects = () => {
                     Offer movie search and exploration for user, user can save movies as favourite.
                     </li>
                     <li>
-                    A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. * Deployed project in Heroku.
+                    A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
                     </li>
                     <li>
                     Used animations to improve user experience.
