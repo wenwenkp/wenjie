@@ -8,7 +8,7 @@ const Contact = () => {
 
         <div className="contact" id="contact">
             <div className="contact--title">
-                find me here
+                Find Me Here
             </div>
             <div className="contact--find">
                 <div className="contact--find--linkedin">

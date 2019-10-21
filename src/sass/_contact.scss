@@ -1,28 +1,8 @@
 .contact {
     // height: 50vh;
     background-color: lightcoral;
+    font-family: 'Roboto', sans-serif;
 
-    // display: grid;
-    // grid-template-rows: 
-    //     [out-start]
-    //         minmax(1rem, .3fr)
-    //         [title-start]
-    //             minmax(3rem, .5fr)
-    //         [title-end find-start]
-    //             minmax(3rem, 2fr)
-    //         [find-end foot-start]
-    //             minmax(1rem, .5fr)
-    //         [foot-end]
-    //         minmax(1rem, .3fr)
-    //     [out-end];
-    // grid-template-columns: 
-    //     [full-start] 
-    //         minmax(3rem, 1fr) 
-    //         [contact-start]
-    //             minmax(3rem, 2fr)
-    //         [contact-end]
-    //         minmax(3rem, 1fr)
-    //     [full-start]; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,18 +10,13 @@
     
 
     &--title {
-        // grid-row: title-start / title-end;
-        // grid-column: contact-start / contact-end;
-        // justify-self: center;
-        // align-self: center;
+        font-size: 3.2rem;
+        font-weight: 700;
         padding: 5vh 0 3vh 0;
     }
 
     &--find {
-        // grid-row: find-start / find-end;
-        // grid-column: contact-start / contact-end;
-        // justify-content: space-around;
-        // align-self: center;
+        font-size: 2rem;
         display: flex;
         text-align: center;
         padding: 5vh 0;
@@ -56,13 +31,14 @@
     }
 
     &--footer {
-        // grid-row: 4 / 5;
-        // grid-column: 2 / 3;
-        // text-align: center;
         border-top: solid black .1rem;
         // width: 100%;
         padding: 2rem 0 5rem 0;
         display: inline-block;
+        p {
+        font-size: 1.5rem;
+
+        }
     }
     
 }

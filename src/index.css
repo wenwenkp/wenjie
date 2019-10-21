@@ -207,13 +207,17 @@ body {
 
 .contact {
   background-color: lightcoral;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
   .contact--title {
+    font-size: 3.2rem;
+    font-weight: 700;
     padding: 5vh 0 3vh 0; }
   .contact--find {
+    font-size: 2rem;
     display: flex;
     text-align: center;
     padding: 5vh 0; }
@@ -225,3 +229,5 @@ body {
     border-top: solid black .1rem;
     padding: 2rem 0 5rem 0;
     display: inline-block; }
+    .contact--footer p {
+      font-size: 1.5rem; }
