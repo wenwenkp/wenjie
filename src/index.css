@@ -132,33 +132,22 @@ body {
     background-color: lightgreen; }
 
 .contact {
-  height: 50vh;
   background-color: lightcoral;
-  display: grid;
-  grid-template-rows: [out-start] minmax(1rem, 0.3fr) [title-start] minmax(3rem, 0.5fr) [title-end find-start] minmax(3rem, 2fr) [find-end foot-start] minmax(1rem, 0.5fr) [foot-end] minmax(1rem, 0.3fr) [out-end];
-  grid-template-columns: [full-start] minmax(3rem, 1fr) [contact-start] minmax(3rem, 2fr) [contact-end] minmax(3rem, 1fr) [full-start]; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .contact--title {
-    grid-row: title-start / title-end;
-    grid-column: contact-start / contact-end;
-    justify-self: center;
-    align-self: center; }
+    padding: 5vh 0 3vh 0; }
   .contact--find {
-    grid-row: find-start / find-end;
-    grid-column: contact-start / contact-end;
-    justify-content: space-around;
-    align-self: center;
     display: flex;
-    text-align: center; }
-    .contact--find--linkedin img {
-      width: 7rem; }
-    .contact--find--github img {
-      width: 7rem; }
-    .contact--find--email img {
-      width: 7rem; }
-  .contact--footer {
-    grid-row: 4 / 5;
-    grid-column: 2 / 3;
     text-align: center;
+    padding: 5vh 0; }
+    .contact--find--linkedin, .contact--find--github, .contact--find--email {
+      padding: 0 2vh; }
+      .contact--find--linkedin img, .contact--find--github img, .contact--find--email img {
+        width: 7rem; }
+  .contact--footer {
     border-top: solid black .1rem;
-    width: 100%;
-    padding-top: 3rem; }
+    padding: 2rem 0 5rem 0;
+    display: inline-block; }

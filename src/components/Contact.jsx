@@ -7,7 +7,6 @@ const Contact = () => {
     return (
 
         <div className="contact" id="contact">
-            {/* <a name="contact" className="contact--tag"></a> */}
             <div className="contact--title">
                 find me here
             </div>
@@ -38,7 +37,6 @@ const Contact = () => {
                 </div>
             </div>
             <footer className="contact--footer">
-                {/* <hr></hr> */}
                 <p>Email: 666wenjie@gmail.com&nbsp; &copy; 2019 Wenjie Li All rights reserved.</p>
             </footer>
         </div>
