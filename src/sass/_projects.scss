@@ -2,48 +2,55 @@
     // height: 100vh;
     background-color: #f5f5f5;
 
-    display: grid;
-    row-gap: 2rem;
-    grid-template-rows: 
-        [out-start]
-            minmax(1rem, .5fr)
-            [title-start]
-                minmax(2rem, 1fr)
-            [title-end project-start]
-                repeat(4, minmax(6rem, 2.5fr))
-            [project-end]
-            minmax(1rem, .5fr)
-        [out-end];
-    grid-template-columns: 
-        [full-start] 
-            minmax(1.5rem, .5fr) 
-            [content-start]
-                minmax(7rem, 4fr)
-            [content-end]
-            minmax(1.5rem, .5fr)
-        [full-start];   
-        
-    
+    // display: grid;
+    // row-gap: 2rem;
+    // grid-template-rows: 
+    //     [out-start]
+    //         minmax(1rem, .5fr)
+    //         [title-start]
+    //             minmax(2rem, 1fr)
+    //         [title-end project-start]
+    //             repeat(4, minmax(6rem, 2.5fr))
+    //         [project-end]
+    //         minmax(1rem, .5fr)
+    //     [out-end];
+    // grid-template-columns: 
+    //     [full-start] 
+    //         minmax(1.5rem, .5fr) 
+    //         [content-start]
+    //             minmax(7rem, 4fr)
+    //         [content-end]
+    //         minmax(1.5rem, .5fr)
+    //     [full-start];   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     &--title {
-        grid-row: title-start / title-end;
-        grid-column: content-start / content-end;
-        justify-self: center;
-        align-self: center;
+        // grid-row: title-start / title-end;
+        // grid-column: content-start / content-end;
+        // justify-self: center;
+        // align-self: center;
+        height: 15vh;
+        width: 80vw;
+        text-align: center;
+        padding-top: 7.5vh;
     }
 
     &--p4,
     &--p3,
     &--p2,
     &--p1 {
-        grid-column: 2 / 3;
+        // grid-column: 2 / 3;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 3rem 10rem;;
         border: solid black .1rem;
         border-radius: 2rem;
-
+        width: 80vw;
+        margin-bottom: 3vh;
         &--content{
             padding-right: 5rem;
             & ul {
@@ -57,22 +64,29 @@
         &--img {
             width: 40rem;
         }
+
+        @media only screen and (max-width: 800px) {
+            flex-direction: column;
+            &--img {
+                width: 40vw;
+            }
+        }
     }
 
     &--p4 {
-        grid-row: 3 / 4;
+        // grid-row: 3 / 4;
         background-color: lightgreen;
     }
     &--p3 {
-        grid-row: 4 / 5;
+        // grid-row: 4 / 5;
         background-color: lightgreen;
     }
     &--p2 {
-        grid-row: 5 / 6;
+        // grid-row: 5 / 6;
         background-color: lightgreen;
     }
     &--p1 {
-        grid-row: 6 / 7;
+        // grid-row: 6 / 7;
         background-color: lightgreen;
     }
 

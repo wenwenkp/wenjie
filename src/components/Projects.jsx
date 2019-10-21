@@ -3,7 +3,6 @@ import React from 'react';
 const Projects = () => {
     return (
         <div className="projects" id="projects">
-            {/* <a name="projects--tag"></a> */}
             <div className="projects--title">Projects</div>
 
             <div className="projects--p4">
