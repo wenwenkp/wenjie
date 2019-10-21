@@ -23,9 +23,7 @@ import soccer from '../sass/images/skills/soccer.png'
 
 const About = () => {
     return (
-
         <div className="about" id="about">
-            {/* <a name="about" className="about--tag"></a> */}
             <div className="about--title">
                 About
             </div>
@@ -59,13 +57,11 @@ const About = () => {
                     Wenjie is a Web Developer with strong foundation knowledge in front-end and back-end. He started to develop his web-development skills at the University of Massachusetts, and strengthen his skills in General Assembly, San Francisco campus as a full-stack developer.
                 </p>
                 <p>
-                    With his previous education background in hospitality management and his working experience in the healthcare industry, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs, and he is a person who would like to go the extra mile to complete the work. 
+                    With his previous education background in hospitality management and his working experience in the healthcare industry, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs, and he is a person who would like to go the extra mile to complete the work.
                 </p>
                 <p>
                     With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
                 </p>
-            {/* </div> */}
-            {/* <div className="about--intro2"> */}
                 <p>
                     <h3>Technical Skills & Tools</h3>
                     <h5>Language & Frameworks</h5>
@@ -80,7 +76,6 @@ const About = () => {
             </div>
         </div>
     )
-
 }
 
 export default About;

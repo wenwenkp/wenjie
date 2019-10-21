@@ -4,7 +4,6 @@ const Projects = () => {
     return (
         <div className="projects" id="projects">
             <div className="projects--title">Projects</div>
-
             <div className="projects--p4">
                 <div className="projects--p4--content">
                     <h1>MovieGuy</h1>
@@ -20,36 +19,12 @@ const Projects = () => {
                         </li>
                     </ul>
                     <div>
-                        <a href="#">Open source on GitHub</a>
-                        <a href="#">Launch Site</a>
+                        <a href="https://github.com/wenwenkp/movie-guy" target="_blank" >Open source on GitHub</a>
+                        <a href="https://movieguy.herokuapp.com/" target="_blank" >Launch Site</a>
                     </div>
                 </div>
-                <a href="#"><img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" /></a>
+                <a href="https://github.com/wenwenkp/movie-guy" target="_blank" ><img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" /></a>
             </div>
-
-            {/* <div className="projects--p3">
-                <div className="projects--p3--content">
-                    <h1>Tasty</h1>
-                    <ul>
-                        <li>
-                            Developed web application within a 3-members development team for restaurant owners to create their own online menus and for customers to explore.
-                        </li>
-                        <li>
-                            Set up API for classmates’ to use as a database in their projects.
-                        </li>
-                        <li>
-                            Participated in building the backend mainly, models set up, search function, GoogleMap API, AmazonS3 set up, users authentication.
-                        </li>
-                        <li>
-                            A full-stack web application, developed with Python3, Django, PostgreSQL, AmazonS3, GoogleMap API. Deployed project in Heroku.
-                        </li>
-                    </ul>
-                    <a href="#">Open source on GitHub</a>
-                    <a href="#">Launch Site</a>
-                </div>
-                <img className="projects--p3--img" src="https://i.imgur.com/tIvrzSq.png" alt="movieguy" />
-            </div> */}
-
             <div className="projects--p2">
                 <div className="projects--p2--content">
                     <h1>My Team</h1>
@@ -65,13 +40,12 @@ const Projects = () => {
                         </li>
                     </ul>
                     <div>
-                        <a href="#">Open source on GitHub</a>
-                        <a href="#">Launch Site</a>
+                        <a href="https://github.com/wenwenkp/my-team" target="_blank">Open source on GitHub</a>
+                        <a href="https://my-soccer-team.herokuapp.com" target="_blank">Launch Site</a>
                     </div>
                 </div>
-                <a href="#"><img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" /></a>
+                <a href="https://my-soccer-team.herokuapp.com" target="_blank"><img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" /></a>
             </div>
-
             <div className="projects--p1">
                 <div className="projects--p1--content">
                     <h1>Black Jack</h1>
@@ -87,11 +61,11 @@ const Projects = () => {
                         </li>
                     </ul>
                     <div>
-                        <a href="#">Open source on GitHub</a>
-                        <a href="#">Launch Site</a>
+                        <a href="https://github.com/wenwenkp/black-jack" target="_blank">Open source on GitHub</a>
+                        <a href="https://wenwenkp.github.io/black-jack/" target="_blank">Launch Site</a>
                     </div>
                 </div>
-                <a href="#"><img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" /></a>
+                <a href="https://wenwenkp.github.io/black-jack/" target="_blank"><img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" /></a>
             </div>
         </div>
     )
