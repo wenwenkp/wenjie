@@ -1,12 +1,8 @@
 .about {
-    // height: 100vh;
     background-color: rgb(199, 224, 233);
     font-family: 'Roboto', sans-serif;
-
     display: grid;
     grid-template-rows: 
-        // [out-start]
-        //     minmax(1rem, .1fr)
             [title-start]
                 minmax(.5rem, 1fr)
             [title-end content-start]
@@ -14,8 +10,6 @@
             [content-end icon-start]
                 minmax(3rem, 3.5fr)
             [icon-end];
-        //     minmax(1rem, .3fr)
-        // [out-end];
     grid-template-columns: 
         [full-start] 
             minmax(.2rem, 1fr) 
@@ -26,15 +20,11 @@
             [intro-end]
             minmax(.2rem, 1fr)
         [full-start];    
-
     @media only screen and (max-width: 1000px) {
-
         display: flex;
         flex-direction: column;
         padding: 5rem;
-            }
-
-
+    }
     &--title {
         grid-row: title-start / title-end;
         grid-column: icon-start / intro-end;
@@ -42,13 +32,10 @@
         align-self: center;
         font-size: 3.2rem;
         font-weight: 700;
-        // padding-top: 10rem;
-        // padding-bottom: 13rem;
-    @media only screen and (max-width: 1000px) {
-        padding-bottom: 5rem;
+        @media only screen and (max-width: 1000px) {
+            padding-bottom: 5rem;
+        }
     }
-    }
-
     &--avatar {
         grid-row: content-start / content-end;
         grid-column: icon-start / icon-end;
@@ -60,11 +47,8 @@
         & img {
             border-radius: 50%;
             width: 10vw;
-
-            
         }
     }
-
     &--skills {
         grid-row: icon-start / icon-end;
         grid-column: icon-start / icon-end;
@@ -78,30 +62,23 @@
         @media only screen and (max-width: 1000px) {
             width: 5rem;
         }
-
-        
     }
-
     &--intro {
         grid-row: 2 / 7;
         grid-column: 3 / 4;
         justify-self: center;
         align-self: start;
-
         p {
             padding: 1rem;
             font-size: 1.8rem;
-
             h3,
             h5 {
                 color: rgb(134, 133, 133);
                 padding: .5rem 0;
             }
-
             span {
                 font-weight: 300;
             }
         }
     }
-    
 }

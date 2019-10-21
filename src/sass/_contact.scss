@@ -1,13 +1,10 @@
 .contact {
-    // height: 50vh;
     background-color: lightcoral;
     font-family: 'Roboto', sans-serif;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 
     &--title {
         font-size: 3.2rem;
@@ -32,13 +29,10 @@
 
     &--footer {
         border-top: solid black .1rem;
-        // width: 100%;
         padding: 2rem 0 5rem 0;
         display: inline-block;
         p {
-        font-size: 1.5rem;
-
+            font-size: 1.5rem;
         }
     }
-    
 }

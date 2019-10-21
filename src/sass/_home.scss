@@ -1,40 +1,22 @@
 .home {
     background-color: white;;
     height: 100vh;
-    // display: grid;
-    // grid-template-rows: 1fr;
-    // grid-template-columns: minmax(2rem, .5fr) 2fr minmax(2rem, .5fr);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    // &--main {
-    // //  justify-self: center;
-    // //  align-self: center;   
-    // //  grid-row: 1 / -1;
-    // //  grid-column: 2 / 3;
-    // }
-
-    // @include respond(phone) { // width < 600?
-    //     padding-left: 1rem;
-    //     padding-right: 1rem;
-    // }
     &--main {
         div {
             text-align: center;
             margin-top: 15rem;
-
-
-        a {
-            // button {
-                // text-align: center;
+            a {
                 color: #444444;
                 text-decoration: none;
                 font-size: 3rem;
                 border-bottom: solid #CCCCCC .1rem;
                 padding: 1rem 3rem;
-        }
+            }
         }
     }
 
@@ -42,8 +24,6 @@
         font-weight: 700;
         font-size: 3.2rem;
         color: #444444;
-
-        
     }
 
     &--secondary {
