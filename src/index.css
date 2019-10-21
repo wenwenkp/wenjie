@@ -12,8 +12,23 @@ html {
 body {
   font-weight: 300; }
 
-.menu--fixed {
-  z-index: 10; }
+.navbar {
+  width: 100vw;
+  background-color: white;
+  position: fixed; }
+  .navbar .first {
+    display: flex;
+    justify-content: end; }
+    .navbar .first li {
+      list-style-type: none;
+      margin: 0 1vw;
+      font-size: 1.8vh;
+      padding: 1vw 0; }
+      .navbar .first li a {
+        text-decoration: none;
+        color: black; }
+        .navbar .first li a:hover {
+          text-decoration: underline; }
 
 .home {
   background-color: white;
@@ -41,11 +56,6 @@ body {
   display: grid;
   grid-template-rows: [out-start] minmax(1rem, 0.3fr) [title-start] minmax(3rem, 0.5fr) [title-end content-start] minmax(4rem, 0.7fr) [content-end icon-start] repeat(3, minmax(6rem, 1fr)) [icon-end] minmax(1rem, 0.3fr) [out-end];
   grid-template-columns: [full-start] minmax(3rem, 1fr) [icon-start] minmax(12rem, 2fr) [icon-end intro-start] minmax(12rem, 2fr) [intro-end] minmax(3rem, 1fr) [full-start]; }
-  .about--tag {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: start;
-    align-self: start; }
   .about--title {
     grid-row: title-start / title-end;
     grid-column: icon-start / intro-end;
@@ -88,11 +98,6 @@ body {
   row-gap: 2rem;
   grid-template-rows: [out-start] minmax(1rem, 0.5fr) [title-start] minmax(2rem, 1fr) [title-end project-start] repeat(4, minmax(6rem, 2.5fr)) [project-end] minmax(1rem, 0.5fr) [out-end];
   grid-template-columns: [full-start] minmax(1.5rem, 0.5fr) [content-start] minmax(7rem, 4fr) [content-end] minmax(1.5rem, 0.5fr) [full-start]; }
-  .projects--tag {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: start;
-    align-self: start; }
   .projects--title {
     grid-row: title-start / title-end;
     grid-column: content-start / content-end;
@@ -134,11 +139,6 @@ body {
   display: grid;
   grid-template-rows: [out-start] minmax(1rem, 0.3fr) [title-start] minmax(3rem, 0.5fr) [title-end find-start] minmax(3rem, 2fr) [find-end foot-start] minmax(1rem, 0.5fr) [foot-end] minmax(1rem, 0.3fr) [out-end];
   grid-template-columns: [full-start] minmax(3rem, 1fr) [contact-start] minmax(3rem, 2fr) [contact-end] minmax(3rem, 1fr) [full-start]; }
-  .contact--tag {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: start;
-    align-self: start; }
   .contact--title {
     grid-row: title-start / title-end;
     grid-column: contact-start / contact-end;

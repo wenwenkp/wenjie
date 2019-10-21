@@ -23,12 +23,7 @@
             minmax(1.5rem, .5fr)
         [full-start];   
         
-    &--tag {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        justify-self: start;
-        align-self: start;
-    }
+    
 
     &--title {
         grid-row: title-start / title-end;

@@ -24,8 +24,8 @@ import soccer from '../sass/images/skills/soccer.png'
 const About = () => {
     return (
 
-        <div className="about">
-            <a name="about" className="about--tag"></a>
+        <div className="about" id="about">
+            {/* <a name="about" className="about--tag"></a> */}
             <div className="about--title">
                 About
             </div>
