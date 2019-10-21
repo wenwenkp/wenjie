@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58d392c5bec527f87a45679a33bb4d04",
+    "revision": "852106e3186bb5f111f4c9df9c69fcfd",
     "url": "/wenjie/index.html"
   },
   {
-    "revision": "c1dd7f2dba0ffbcd3e2c",
-    "url": "/wenjie/static/css/main.43a14ceb.chunk.css"
+    "revision": "2e668ec65ba8df0b0229",
+    "url": "/wenjie/static/css/main.b24a8deb.chunk.css"
   },
   {
     "revision": "93290407d98431298ba7",
     "url": "/wenjie/static/js/2.de9d51e8.chunk.js"
   },
   {
-    "revision": "c1dd7f2dba0ffbcd3e2c",
+    "revision": "2e668ec65ba8df0b0229",
     "url": "/wenjie/static/js/main.1d2dc389.chunk.js"
   },
   {
