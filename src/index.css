@@ -134,6 +134,7 @@ body {
 
 .projects {
   background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,38 +143,67 @@ body {
     height: 15vh;
     width: 80vw;
     text-align: center;
-    padding-top: 7.5vh; }
+    padding-top: 7.5vh;
+    font-size: 3.2rem;
+    font-weight: 700; }
   .projects--p4, .projects--p3, .projects--p2, .projects--p1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 10rem;
+    padding: 3rem 2rem 4rem 6rem;
     border: solid black .1rem;
     border-radius: 2rem;
-    width: 80vw;
-    margin-bottom: 3vh; }
+    width: 60vw;
+    margin-bottom: 3vh;
+    color: #444444; }
+    @media only screen and (max-width: 1250px) {
+      .projects--p4, .projects--p3, .projects--p2, .projects--p1 {
+        flex-direction: column; } }
     .projects--p4--content, .projects--p3--content, .projects--p2--content, .projects--p1--content {
-      padding-right: 5rem; }
+      padding-right: 2rem; }
       .projects--p4--content ul, .projects--p3--content ul, .projects--p2--content ul, .projects--p1--content ul {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 200; }
-      .projects--p4--content a, .projects--p3--content a, .projects--p2--content a, .projects--p1--content a {
-        padding: 3rem; }
+        .projects--p4--content ul li, .projects--p3--content ul li, .projects--p2--content ul li, .projects--p1--content ul li {
+          padding-top: 1rem; }
+      .projects--p4--content div, .projects--p3--content div, .projects--p2--content div, .projects--p1--content div {
+        padding-top: 3rem;
+        font-size: 1.5rem; }
+        .projects--p4--content div a, .projects--p3--content div a, .projects--p2--content div a, .projects--p1--content div a {
+          margin-right: 2rem;
+          text-decoration: none;
+          border: #CCCCCC solid .2rem;
+          border-radius: 10px;
+          padding: .5rem; }
+          .projects--p4--content div a:hover, .projects--p3--content div a:hover, .projects--p2--content div a:hover, .projects--p1--content div a:hover {
+            background-color: #a4a4a5; }
+          @media only screen and (max-width: 600px) {
+            .projects--p4--content div a, .projects--p3--content div a, .projects--p2--content div a, .projects--p1--content div a {
+              display: block;
+              margin-bottom: .5rem; } }
+      @media only screen and (max-width: 1250px) {
+        .projects--p4--content, .projects--p3--content, .projects--p2--content, .projects--p1--content {
+          margin-bottom: 3rem; } }
     .projects--p4--img, .projects--p3--img, .projects--p2--img, .projects--p1--img {
-      width: 40rem; }
+      width: 30rem; }
     @media only screen and (max-width: 800px) {
       .projects--p4, .projects--p3, .projects--p2, .projects--p1 {
         flex-direction: column; }
         .projects--p4--img, .projects--p3--img, .projects--p2--img, .projects--p1--img {
           width: 40vw; } }
   .projects--p4 {
-    background-color: lightgreen; }
-  .projects--p3 {
-    background-color: lightgreen; }
+    background-color: white; }
+    .projects--p4 a {
+      color: #444444; }
   .projects--p2 {
-    background-color: lightgreen; }
+    background-color: white; }
+    .projects--p2 a {
+      color: #444444; }
   .projects--p1 {
-    background-color: lightgreen; }
+    background-color: #1e3229;
+    color: white; }
+    .projects--p1 a {
+      color: white; }
 
 .contact {
   background-color: lightcoral;

@@ -19,13 +19,15 @@ const Projects = () => {
                             Used animations to improve user experience.
                         </li>
                     </ul>
-                    <a href="#">Open source on GitHub</a>
-                    <a href="#">Launch Site</a>
+                    <div>
+                        <a href="#">Open source on GitHub</a>
+                        <a href="#">Launch Site</a>
+                    </div>
                 </div>
-                <img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" />
+                <a href="#"><img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" /></a>
             </div>
 
-            <div className="projects--p3">
+            {/* <div className="projects--p3">
                 <div className="projects--p3--content">
                     <h1>Tasty</h1>
                     <ul>
@@ -46,7 +48,7 @@ const Projects = () => {
                     <a href="#">Launch Site</a>
                 </div>
                 <img className="projects--p3--img" src="https://i.imgur.com/tIvrzSq.png" alt="movieguy" />
-            </div>
+            </div> */}
 
             <div className="projects--p2">
                 <div className="projects--p2--content">
@@ -62,10 +64,12 @@ const Projects = () => {
                             Collaborated with designer as a team to complete project.
                         </li>
                     </ul>
-                    <a href="#">Open source on GitHub</a>
-                    <a href="#">Launch Site</a>
+                    <div>
+                        <a href="#">Open source on GitHub</a>
+                        <a href="#">Launch Site</a>
+                    </div>
                 </div>
-                <img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" />
+                <a href="#"><img className="projects--p2--img" src="https://i.imgur.com/yDyOejt.png" alt="movieguy" /></a>
             </div>
 
             <div className="projects--p1">
@@ -82,12 +86,13 @@ const Projects = () => {
                             Deployed game in GitHub.
                         </li>
                     </ul>
-                    <a href="#">Open source on GitHub</a>
-                    <a href="#">Launch Site</a>
+                    <div>
+                        <a href="#">Open source on GitHub</a>
+                        <a href="#">Launch Site</a>
+                    </div>
                 </div>
-                <img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" />
+                <a href="#"><img className="projects--p1--img" src="https://i.imgur.com/0nxWzrR.png" alt="movieguy" /></a>
             </div>
-
         </div>
     )
 }
