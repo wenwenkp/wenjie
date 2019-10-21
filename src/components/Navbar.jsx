@@ -24,7 +24,7 @@ const Navbar = () => {
 					<a href="https://github.com/wenwenkp" target="_blank">GitHub</a>
 				</li>
 				<li>
-					<a href={resume}>Resume</a>
+					<a href={resume} target="_blank">Resume</a>
 				</li>
 			</ul>
 		</nav>
