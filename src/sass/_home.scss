@@ -16,6 +16,11 @@
     // //  grid-column: 2 / 3;
     // }
 
+    // @include respond(phone) { // width < 600?
+    //     padding-left: 1rem;
+    //     padding-right: 1rem;
+    // }
+
     &--primary {
         font-weight: 700;
         font-size: 3.2rem;
