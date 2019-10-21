@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../Resume.pdf';
 
 const Navbar = () => {
 	return (
@@ -23,7 +24,7 @@ const Navbar = () => {
 					<a href="https://github.com/wenwenkp" target="_blank">GitHub</a>
 				</li>
 				<li>
-					<a href="#">Resume</a>
+					<a href={resume}>Resume</a>
 				</li>
 			</ul>
 		</nav>
