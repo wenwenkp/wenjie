@@ -22,7 +22,9 @@ const Home = () => {
                 <section className="home--secondary">
                     Yes, Man Utd!
                 </section>
-                <a href="#about" className="btn btn-primary btn-lg" role="button" aria-pressed="true">View my work</a>
+                <div>
+                    <a href="#about">&#8595;</a>
+                </div>
             </div>
         </div>
     )
