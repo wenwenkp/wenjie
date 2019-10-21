@@ -38,13 +38,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-family: 'Roboto', sans-serif; }
   .home--primary {
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #444444; }
   .home--secondary {
     display: block;
-    color: grey;
-    font-size: 1.25rem;
+    color: #CCCCCC;
+    font-size: 2rem;
     font-weight: 300;
     padding: .5rem 0 1rem 0;
     line-height: 1.3; }
