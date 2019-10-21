@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "366958eea770e41fe8a15722c763d42f",
+    "revision": "129cc2972489a2c97b4d5353e3060e7f",
     "url": "/wenjie/index.html"
   },
   {
-    "revision": "29d5ef125392cb213080",
+    "revision": "9159b901715bc1e18325",
     "url": "/wenjie/static/css/main.b24a8deb.chunk.css"
   },
   {
-    "revision": "ace57394dba4cf7eb640",
-    "url": "/wenjie/static/js/2.5db55c5d.chunk.js"
+    "revision": "76c363082c710aac70af",
+    "url": "/wenjie/static/js/2.84562724.chunk.js"
   },
   {
-    "revision": "29d5ef125392cb213080",
-    "url": "/wenjie/static/js/main.fc8c4979.chunk.js"
+    "revision": "9159b901715bc1e18325",
+    "url": "/wenjie/static/js/main.ab94a9af.chunk.js"
   },
   {
     "revision": "861c6737f9b972291ca5",
     "url": "/wenjie/static/js/runtime-main.09e78589.js"
+  },
+  {
+    "revision": "a854a75f02717a9e9b3a763cc2760a67",
+    "url": "/wenjie/static/media/Resume.a854a75f.pdf"
   },
   {
     "revision": "1c1888a3eb2f04360763c1a95257b726",
