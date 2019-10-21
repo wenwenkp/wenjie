@@ -18,7 +18,7 @@ body {
   position: fixed; }
   .navbar .first {
     display: flex;
-    justify-content: end; }
+    justify-content: flex-end; }
     .navbar .first li {
       list-style-type: none;
       margin: 0 1vw;
