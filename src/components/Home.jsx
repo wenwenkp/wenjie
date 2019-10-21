@@ -8,7 +8,7 @@ const Home = () => {
                     Hey There, I'm Wenjie Li.
                 </h1>
                 <section className="home--secondary">
-                    based in San Francisco, CA.
+                    Based in San Francisco, CA.
                 </section>
                 <h1 className="home--primary">
                     Just Another Web Developer.
@@ -20,7 +20,7 @@ const Home = () => {
                     And A Big Fan Of Soccer.
                 </h1>
                 <section className="home--secondary">
-                    Yes, Man Utd!
+                    Yesssss, Manchester United!!
                 </section>
                 <div>
                     <a href="#about">&#8595;</a>
