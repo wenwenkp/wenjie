@@ -22,8 +22,10 @@ body {
     .navbar .first li {
       list-style-type: none;
       margin: 0 1vw;
-      font-size: 1.8vh;
-      padding: 1vw 0; }
+      font-size: 1.5rem;
+      font-family: Apercu,sans-serif;
+      color: #666666;
+      padding: 1.3rem .5rem; }
       .navbar .first li a {
         text-decoration: none;
         color: black; }
