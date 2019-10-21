@@ -1,38 +1,52 @@
 .about {
     // height: 100vh;
     background-color: rgb(199, 224, 233);
+    font-family: 'Roboto', sans-serif;
 
     display: grid;
     grid-template-rows: 
-        [out-start]
-            minmax(1rem, .3fr)
+        // [out-start]
+        //     minmax(1rem, .1fr)
             [title-start]
-                minmax(3rem, .5fr)
+                minmax(.5rem, 1fr)
             [title-end content-start]
-                minmax(4rem, .7fr)
+                minmax(1rem, 1fr)
             [content-end icon-start]
-                repeat(3, minmax(6rem, 1fr))
-            [icon-end]
-            minmax(1rem, .3fr)
-        [out-end];
+                minmax(3rem, 3.5fr)
+            [icon-end];
+        //     minmax(1rem, .3fr)
+        // [out-end];
     grid-template-columns: 
         [full-start] 
-            minmax(3rem, 1fr) 
+            minmax(.2rem, 1fr) 
             [icon-start]
                 minmax(12rem, 2fr)
             [icon-end intro-start]
                 minmax(12rem, 2fr)
             [intro-end]
-            minmax(3rem, 1fr)
+            minmax(.2rem, 1fr)
         [full-start];    
 
-    
+    @media only screen and (max-width: 1000px) {
+
+        display: flex;
+        flex-direction: column;
+        padding: 5rem;
+            }
+
 
     &--title {
         grid-row: title-start / title-end;
         grid-column: icon-start / intro-end;
         justify-self: center;
         align-self: center;
+        font-size: 3.2rem;
+        font-weight: 700;
+        // padding-top: 10rem;
+        // padding-bottom: 13rem;
+    @media only screen and (max-width: 1000px) {
+        padding-bottom: 5rem;
+    }
     }
 
     &--avatar {
@@ -40,10 +54,14 @@
         grid-column: icon-start / icon-end;
         justify-self: center;
         align-self: center;
-
+        @media only screen and (max-width: 1000px) {
+            padding-bottom: 3rem;
+        }
         & img {
             border-radius: 50%;
-            width: 10rem;
+            width: 10vw;
+
+            
         }
     }
 
@@ -52,31 +70,37 @@
         grid-column: icon-start / icon-end;
         justify-self: center;
         align-self: center;
+        text-align: center;
     }
     &--skills > * {
         width: 10rem;
         padding: 1rem;
+        @media only screen and (max-width: 1000px) {
+            width: 5rem;
+        }
+
+        
     }
 
-    &--intro1 {
-        grid-row: 3 / 5;
+    &--intro {
+        grid-row: 2 / 7;
         grid-column: 3 / 4;
         justify-self: center;
         align-self: start;
 
         p {
-            padding: 2rem;
-        }
-    }
+            padding: 1rem;
+            font-size: 1.8rem;
 
-    &--intro2 {
-        grid-row: 5 / 7;
-        grid-column: 3/ 4;
-        justify-self: center;
-        align-self: start;
+            h3,
+            h5 {
+                color: rgb(134, 133, 133);
+                padding: .5rem 0;
+            }
 
-        p {
-            padding: 2rem;
+            span {
+                font-weight: 300;
+            }
         }
     }
     
