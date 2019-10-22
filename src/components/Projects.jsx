@@ -15,7 +15,7 @@ const Projects = () => {
                             A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
                         </li>
                         <li>
-                            Used animations to improve user experience.
+                            Used animations in many components to improve interactions with users.
                         </li>
                     </ul>
                     <div>

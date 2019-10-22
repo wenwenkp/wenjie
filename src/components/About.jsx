@@ -71,7 +71,7 @@ const About = () => {
                     <h5>Database</h5>
                     <span>MongoDB, Mongoose, PostgreSQL.</span>
                     <h5>Methodologies</h5>
-                    <span>Object Oriented Programming, MVC Pattern, Responsive Design, Authentication.</span>
+                    <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
                 </p>
             </div>
         </div>
