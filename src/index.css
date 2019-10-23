@@ -122,14 +122,14 @@ body {
     grid-column: 3 / 4;
     justify-self: center;
     align-self: start; }
-    .about--intro p {
+    .about--intro div {
       padding: 1rem;
       font-size: 1.8rem; }
-      .about--intro p h3,
-      .about--intro p h5 {
+      .about--intro div h3,
+      .about--intro div h5 {
         color: #868585;
         padding: .5rem 0; }
-      .about--intro p span {
+      .about--intro div span {
         font-weight: 300; }
 
 .projects {
@@ -159,7 +159,7 @@ body {
     @media only screen and (max-width: 1250px) {
       .projects--p4, .projects--p3, .projects--p2, .projects--p1 {
         flex-direction: column;
-        width: 80vw; } }
+        width: 70vw; } }
     .projects--p4--content, .projects--p3--content, .projects--p2--content, .projects--p1--content {
       padding-right: 2rem; }
       .projects--p4--content ul, .projects--p3--content ul, .projects--p2--content ul, .projects--p1--content ul {
@@ -186,10 +186,10 @@ body {
         .projects--p4--content, .projects--p3--content, .projects--p2--content, .projects--p1--content {
           margin-bottom: 3rem; } }
     .projects--p4--img, .projects--p3--img, .projects--p2--img, .projects--p1--img {
-      width: 30rem; }
-    @media only screen and (max-width: 800px) {
+      width: 25vw; }
+    @media only screen and (max-width: 1250px) {
       .projects--p4--img, .projects--p3--img, .projects--p2--img, .projects--p1--img {
-        width: 40vw; } }
+        width: 60vw; } }
   .projects--p4 {
     background-color: white; }
     .projects--p4 a {

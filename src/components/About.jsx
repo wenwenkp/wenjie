@@ -53,13 +53,13 @@ const About = () => {
                 <img className="about--skill1" src={soccer} />
             </div>
             <div className="about--intro">
-                <p>
+                <div>
                     Wenjie loves to go the extra mile to complete the work. He has passions and skills in web development. Fluent in Front-end and Back-end programming.
-                </p>
-                <p>
+                </div>
+                <div>
                     With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
-                </p>
-                <p>
+                </div>
+                <div>
                     <h3>Technical Skills & Tools</h3>
                     <h5>Language & Frameworks</h5>
                     <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</span>
@@ -71,7 +71,7 @@ const About = () => {
                     <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
                     <h5>Spoken Language</h5>
                     <span>English, Cantonese, Mandarin.</span>
-                </p>
+                </div>
             </div>
         </div>
     )

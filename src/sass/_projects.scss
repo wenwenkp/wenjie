@@ -31,7 +31,7 @@
 
         @media only screen and (max-width: 1250px) {
             flex-direction: column;
-            width: 80vw;
+            width: 70vw;
         }
 
         &--content{
@@ -71,11 +71,11 @@
         }
 
         &--img {
-            width: 30rem;
+            width: 25vw;
         }
-        @media only screen and (max-width: 800px) {
+        @media only screen and (max-width: 1250px) {
             &--img {
-                width: 40vw;
+                width: 60vw;
             }
         }
     }
