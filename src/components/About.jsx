@@ -54,24 +54,23 @@ const About = () => {
             </div>
             <div className="about--intro">
                 <p>
-                    Wenjie is a Web Developer with strong foundation knowledge in front-end and back-end. He started to develop his web-development skills at the University of Massachusetts, and strengthen his skills in General Assembly, San Francisco campus as a full-stack developer.
+                    Wenjie loves to go the extra mile to complete the work. He has passions and skills in web development. Fluent in Front-end and Back-end programming.
                 </p>
                 <p>
-                    With his previous education background in hospitality management and his working experience in the healthcare industry, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs, and he is a person who would like to go the extra mile to complete the work.
-                </p>
-                <p>
-                    With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
+                    With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
                 </p>
                 <p>
                     <h3>Technical Skills & Tools</h3>
                     <h5>Language & Frameworks</h5>
-                    <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, Css3, Sass, jQuery, Java, C, Third-Party APIs.</span>
+                    <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</span>
                     <h5>Management & Deployment</h5>
                     <span>Git, GitHub, Heroku.</span>
                     <h5>Database</h5>
                     <span>MongoDB, Mongoose, PostgreSQL.</span>
                     <h5>Methodologies</h5>
                     <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
+                    <h5>Spoken Language</h5>
+                    <span>English, Cantonese, Mandarin.</span>
                 </p>
             </div>
         </div>
