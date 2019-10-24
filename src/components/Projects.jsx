@@ -12,10 +12,16 @@ const Projects = () => {
                             Offer movie search and exploration for user, user can save movies as favourite.
                         </li>
                         <li>
-                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
+                            Set up user login with token.
                         </li>
                         <li>
-                            Used animations in many components to improve interactions with users.
+                            Reused components for different routes.
+                        </li>
+                        <li>
+                            Implemented animations in different components to make user control become more live.
+                        </li>
+                        <li>
+                            A MERN-stack web application, developed with JavaScript, MongoDB, Express, React and Node, Sass. Deployed project in Heroku.
                         </li>
                     </ul>
                     <div>
@@ -30,13 +36,16 @@ const Projects = () => {
                     <h1>My Team</h1>
                     <ul>
                         <li>
-                            A full-stack web application for users to create or join a soccer team.
+                            A full-stack full-CRUD web application for users to create or join a soccer team.
                         </li>
                         <li>
-                            Developed with JavaScript, Node.js, Express, Bootstrap, MongoDB, Google OAuth. Deployed project in Heroku.
+                            Set up Google Account Login.
                         </li>
                         <li>
                             Collaborated with designer as a team to complete project.
+                        </li>
+                        <li>
+                            Developed with JavaScript, Node.js, Express, Bootstrap, MongoDB, Google OAuth.
                         </li>
                     </ul>
                     <div>
