@@ -54,7 +54,7 @@ const About = () => {
             </div>
             <div className="about--intro">
                 <div>
-                    Wenjie loves to go the extra mile to complete the work. He has passions and skills in web development. Fluent in Front-end and Back-end programming.
+                    Wenjie loves to go the extra mile to complete the work. He has strong foundation knowledge and passions in web development, fluent in front-end and back-end languages and frameworks.
                 </div>
                 <div>
                     With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
