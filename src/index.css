@@ -76,61 +76,38 @@ body {
 .about {
   background-color: #c7e0e9;
   font-family: 'Roboto', sans-serif;
-  display: grid;
-  grid-template-rows: [title-start] minmax(0.5rem, 1fr) [title-end content-start] minmax(1rem, 1fr) [content-end icon-start] minmax(3rem, 3.5fr) [icon-end];
-  grid-template-columns: [full-start] minmax(0.2rem, 1fr) [icon-start] minmax(12rem, 2fr) [icon-end intro-start] minmax(12rem, 2fr) [intro-end] minmax(0.2rem, 1fr) [full-start]; }
-  @media only screen and (max-width: 1000px) {
-    .about {
-      display: flex;
-      flex-direction: column;
-      padding: 5rem; } }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 18vw; }
   .about--title {
-    grid-row: title-start / title-end;
-    grid-column: icon-start / intro-end;
-    justify-self: center;
-    align-self: center;
     font-size: 3.2rem;
-    font-weight: 700; }
-    @media only screen and (max-width: 1000px) {
-      .about--title {
-        padding-bottom: 5rem; } }
+    font-weight: 700;
+    margin-bottom: 3rem; }
   .about--avatar {
-    grid-row: content-start / content-end;
-    grid-column: icon-start / icon-end;
-    justify-self: center;
-    align-self: center; }
-    @media only screen and (max-width: 1000px) {
-      .about--avatar {
-        padding-bottom: 3rem; } }
+    margin-bottom: 5rem; }
     .about--avatar img {
       border-radius: 50%;
       width: 10vw; }
   .about--skills {
-    grid-row: icon-start / icon-end;
-    grid-column: icon-start / icon-end;
-    justify-self: center;
-    align-self: center;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5rem; }
   .about--skills > * {
     width: 10rem;
     padding: 1rem; }
     @media only screen and (max-width: 1000px) {
       .about--skills > * {
         width: 5rem; } }
-  .about--intro {
-    grid-row: 2 / 7;
-    grid-column: 3 / 4;
-    justify-self: center;
-    align-self: start; }
-    .about--intro div {
-      padding: 1rem;
-      font-size: 1.8rem; }
-      .about--intro div h3,
-      .about--intro div h5 {
-        color: #868585;
-        padding: .5rem 0; }
-      .about--intro div span {
-        font-weight: 300; }
+  .about--intro div {
+    padding: 1rem;
+    font-size: 1.8rem; }
+    .about--intro div h3,
+    .about--intro div h5 {
+      color: #868585;
+      padding: .5rem 0; }
+    .about--intro div span {
+      font-weight: 300; }
 
 .projects {
   background-color: #f5f5f5;

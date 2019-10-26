@@ -30,6 +30,29 @@ const About = () => {
             <div className="about--avatar">
                 <img src={avatar} alt="My Avatar" />
             </div>
+
+            <div className="about--intro">
+                <div>
+                    Wenjie loves to go the extra mile to complete the work. He has strong foundation knowledge and passions in web development, fluent in front-end and back-end languages and frameworks.
+                </div>
+                <div>
+                    With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
+                </div>
+                <div>
+                    <h3>Technical Skills & Tools</h3>
+                    <h5>Language & Frameworks</h5>
+                    <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</span>
+                    <h5>Management & Deployment</h5>
+                    <span>Git, GitHub, Heroku.</span>
+                    <h5>Database</h5>
+                    <span>MongoDB, Mongoose, PostgreSQL.</span>
+                    <h5>Methodologies</h5>
+                    <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
+                    <h5>Spoken Language</h5>
+                    <span>English, Cantonese, Mandarin.</span>
+                </div>
+            </div>
+
             <div className="about--skills">
                 <img className="about--skill1" src={html} />
                 <img className="about--skill1" src={css} />
@@ -51,27 +74,6 @@ const About = () => {
                 <img className="about--skill1" src={c} />
                 <img className="about--skill1" src={jquery} />
                 <img className="about--skill1" src={soccer} />
-            </div>
-            <div className="about--intro">
-                <div>
-                    Wenjie loves to go the extra mile to complete the work. He has strong foundation knowledge and passions in web development, fluent in front-end and back-end languages and frameworks.
-                </div>
-                <div>
-                    With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
-                </div>
-                <div>
-                    <h3>Technical Skills & Tools</h3>
-                    <h5>Language & Frameworks</h5>
-                    <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</span>
-                    <h5>Management & Deployment</h5>
-                    <span>Git, GitHub, Heroku.</span>
-                    <h5>Database</h5>
-                    <span>MongoDB, Mongoose, PostgreSQL.</span>
-                    <h5>Methodologies</h5>
-                    <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
-                    <h5>Spoken Language</h5>
-                    <span>English, Cantonese, Mandarin.</span>
-                </div>
             </div>
         </div>
     )
