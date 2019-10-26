@@ -52,7 +52,6 @@ const About = () => {
                     <span>English, Cantonese, Mandarin.</span>
                 </div>
             </div>
-
             <div className="about--skills">
                 <img className="about--skill1" src={html} />
                 <img className="about--skill1" src={css} />
