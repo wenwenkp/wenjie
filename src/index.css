@@ -27,7 +27,8 @@ body {
 .navbar {
   width: 100vw;
   background-color: white;
-  position: fixed; }
+  position: fixed;
+  border-bottom: solid .1rem #CCCCCC; }
   .navbar .first {
     display: flex;
     justify-content: flex-end; }
