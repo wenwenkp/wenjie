@@ -23,7 +23,7 @@ const Home = () => {
                     Yesssss, Manchester United!!
                 </section>
                 <div>
-                    <a href="#about">&#8595;</a>
+                    <a href="#about" className="next">&#8595;</a>
                 </div>
             </div>
         </div>

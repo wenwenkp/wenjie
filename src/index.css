@@ -55,12 +55,16 @@ body {
   .home--main div {
     text-align: center;
     margin-top: 15rem; }
-    .home--main div a {
+    .home--main div .next {
+      animation-name: next;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
       color: #444444;
       text-decoration: none;
       font-size: 3rem;
-      border-bottom: solid #CCCCCC .1rem;
-      padding: 1rem 3rem; }
+      padding: 1rem 3rem;
+      display: inline-block; }
   .home--primary {
     font-weight: 700;
     font-size: 3.2rem;
@@ -207,3 +211,13 @@ body {
     display: inline-block; }
     .contact--footer p {
       font-size: 1.5rem; }
+
+@keyframes next {
+  0% {
+    color: black;
+    transform: translateY(-5rem); }
+  50% {
+    transform: translateY(0); }
+  100% {
+    color: #FCD9D9;
+    transform: translateY(-5rem); } }

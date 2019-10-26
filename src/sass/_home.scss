@@ -10,12 +10,16 @@
         div {
             text-align: center;
             margin-top: 15rem;
-            a {
+            .next {
+                animation-name: next;
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
                 color: #444444;
                 text-decoration: none;
                 font-size: 3rem;
-                border-bottom: solid #CCCCCC .1rem;
                 padding: 1rem 3rem;
+                display: inline-block;
             }
         }
     }
