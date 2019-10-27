@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34b1345464c76a221327b6eb36068510",
+    "revision": "420afead13fda0cef64ee06207892e37",
     "url": "/wenjie/index.html"
   },
   {
-    "revision": "3936b3af15bbd8a23bdc",
+    "revision": "3d5ecc0dac685e2996b5",
     "url": "/wenjie/static/css/main.ccdd6b23.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wenjie/static/js/2.84562724.chunk.js"
   },
   {
-    "revision": "3936b3af15bbd8a23bdc",
-    "url": "/wenjie/static/js/main.d2566640.chunk.js"
+    "revision": "3d5ecc0dac685e2996b5",
+    "url": "/wenjie/static/js/main.517d4fc1.chunk.js"
   },
   {
     "revision": "861c6737f9b972291ca5",
     "url": "/wenjie/static/js/runtime-main.09e78589.js"
   },
   {
-    "revision": "eb0c1f023a0da1f81c3c963c20a9fa78",
-    "url": "/wenjie/static/media/Resume.eb0c1f02.pdf"
+    "revision": "36dadfac4daa14b8386f7149de063546",
+    "url": "/wenjie/static/media/Resume.36dadfac.pdf"
   },
   {
     "revision": "1c1888a3eb2f04360763c1a95257b726",
