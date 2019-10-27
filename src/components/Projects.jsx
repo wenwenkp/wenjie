@@ -15,6 +15,9 @@ const Projects = () => {
                             Set up user login with token.
                         </li>
                         <li>
+                            Mobile friendly responsive web application.
+                        </li>
+                        <li>
                             Reused components for different routes.
                         </li>
                         <li>
