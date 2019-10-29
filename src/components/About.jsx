@@ -32,24 +32,27 @@ const About = () => {
             </div>
 
             <div className="about--intro">
-                <div>
-                    Wenjie loves to go the extra mile to complete the work. With his study in hospitality and information technology, he believes user experience is one of the most important factors for a company to become successful. He has passions in providing excellent user experiences through modern web technology. And he has strong foundation knowledge in web development, fluent in front-end and back-end languages and frameworks.
+                <div className="about--intro--key">
+                    Wenjie loves to go the <span>extra mile</span> to complete the work. 
+                    With his study in <span>hospitality</span> and <span>information technology</span>, he believes <span>user experience</span> is one of the most important factors for a company to become <span>successful</span>.
+                    He has passions in providing excellent user experiences through modern <span>web technology</span>. And he has strong foundation knowledge in web development, fluent in <span>front-end</span> and <span>back-end</span> languages and frameworks.
                 </div>
-                <div>
-                    With his previous education background and working experience, he has become a strong detail oriented, organized person and developed an acute ability to identify customer needs. With the experiences of working in a fast paced work environment for a couple years have developed his ability to handle multiple tasks and strong organization skills.
+                <div className="about--intro--key">
+                    With his previous education background and working experience, he has become a strong <span>detail oriented</span>, <span>organized</span> person and developed an acute ability to identify people's needs. With the experiences of working in a <span>fast paced</span> work environment for a couple years have developed his ability to handle <span>multiple tasks</span> and strong <span>organization skills</span>.
                 </div>
                 <div>
                     <h3>Technical Skills & Tools</h3>
-                    <h5>Language & Frameworks</h5>
-                    <span>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</span>
-                    <h5>Management & Deployment</h5>
-                    <span>Git, GitHub, Heroku.</span>
-                    <h5>Database</h5>
-                    <span>MongoDB, Mongoose, PostgreSQL.</span>
-                    <h5>Methodologies</h5>
-                    <span>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</span>
-                    <h5>Spoken Language</h5>
-                    <span>English, Cantonese, Mandarin.</span>
+                    <h4>Language & Frameworks</h4>
+                    <p>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, <br/> 
+                        HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</p>
+                    <h4>Management & Deployment</h4>
+                    <p>Git, GitHub, Heroku.</p>
+                    <h4>Database</h4>
+                    <p>MongoDB, Mongoose, PostgreSQL.</p>
+                    <h4>Methodologies</h4>
+                    <p>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</p>
+                    <h4>Spoken Language</h4>
+                    <p>English, Cantonese, Mandarin.</p>
                 </div>
             </div>
             <div className="about--skills">

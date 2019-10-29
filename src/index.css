@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vh 18vw; }
+  padding: 10vh 20vw; }
   .about--title {
     font-size: 3.2rem;
     font-weight: 700;
@@ -110,11 +110,14 @@ body {
     @media only screen and (max-width: 1000px) {
       .about--skills > * {
         width: 5rem; } }
+  .about--intro--key span {
+    font-weight: bold;
+    color: #bb5454; }
   .about--intro div {
     padding: 1rem;
     font-size: 1.8rem; }
     .about--intro div h3,
-    .about--intro div h5 {
+    .about--intro div h4 {
       color: #868585;
       padding: .5rem 0; }
     .about--intro div span {
