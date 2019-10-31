@@ -34,6 +34,36 @@ const Projects = () => {
                 </div>
                 <a href="https://github.com/wenwenkp/movie-guy" target="_blank" ><img className="projects--p4--img" src="https://i.imgur.com/r3KOuIu.png" alt="movieguy" /></a>
             </div>
+            <div className="projects--p3">
+                <div className="projects--p3--content">
+                    <h1>Tasty</h1>
+                    <ul>
+                        <li>
+                            Developed web application within a 3-members development team for restaurant owners to create their own online menus and for customers to explore.
+                        </li>
+                        <li>
+                            Set up API for database for classmates to use as a third-party API in their projects.
+                        </li>
+                        <li>
+                            Set up photo upload using Amazon S3.
+                        </li>
+                        <li>
+                            Participated in building the backend mainly, GoogleMap API, AmazonS3 set up, users authentication.
+                        </li>
+                        <li>
+                            A full-stack full-CRUD web application, developed with Python3, Django, PostgreSQL, AmazonS3.
+                        </li>
+                        <li>
+                            Responsive mobile friendly.
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="https://github.com/wenwenkp/Tasty" target="_blank">Open source on GitHub</a>
+                        <a href="https://menunav.herokuapp.com/" target="_blank">Launch Site</a>
+                    </div>
+                </div>
+                <a href="http://menunav.herokuapp.com/" target="_blank"><img className="projects--p2--img" src="https://i.imgur.com/QAE7ger.png" alt="movieguy" /></a>
+            </div>
             <div className="projects--p2">
                 <div className="projects--p2--content">
                     <h1>My Team</h1>

@@ -181,13 +181,9 @@ body {
     @media only screen and (max-width: 1250px) {
       .projects--p4--img, .projects--p3--img, .projects--p2--img, .projects--p1--img {
         width: 60vw; } }
-  .projects--p4 {
+  .projects--p4, .projects--p3, .projects--p2 {
     background-color: white; }
-    .projects--p4 a {
-      color: #444444; }
-  .projects--p2 {
-    background-color: white; }
-    .projects--p2 a {
+    .projects--p4 a, .projects--p3 a, .projects--p2 a {
       color: #444444; }
   .projects--p1 {
     background-color: #1e3229;
