@@ -42,15 +42,14 @@ const About = () => {
                 </div>
                 <div>
                     <h3>Technical Skills & Tools</h3>
-                    <h4>Language & Frameworks</h4>
-                    <p>JavaScript, Python3, React, Node.js, Express, Django, Bootstrap, <br/> 
-                        HTML5, CSS3, SASS, jQuery, Java, C Language, Third-Party APIs.</p>
-                    <h4>Management & Deployment</h4>
-                    <p>Git, GitHub, Heroku.</p>
-                    <h4>Database</h4>
-                    <p>MongoDB, Mongoose, PostgreSQL.</p>
-                    <h4>Methodologies</h4>
-                    <p>Object Oriented Programming, MVC Pattern, Responsive Design, User Authentication.</p>
+                    <h4>Programming: </h4>
+                    <p>JavaScript, HTML, Css, Python3, Java, C, Sass, Node.js, Redux</p>
+                    <h4>Frameworks: </h4>
+                    <p>React.js, Express, Django, Bootstrap</p>
+                    <h4>Databases: </h4>
+                    <p>MongoDB, PostgreSQL.</p>
+                    <h4>Others & Tools: </h4>
+                    <p>Git, GitHub, Heroku, Responsive Design</p>
                     <h4>Spoken Language</h4>
                     <p>English, Cantonese, Mandarin.</p>
                 </div>
