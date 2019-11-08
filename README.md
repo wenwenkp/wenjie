@@ -1,7 +1,5 @@
 ## My Portfolio
 This is a portfolio of mine I deployed in github.
-If anybody interested in it please feel free to use it as a template.
-It is developed with React.js. Because I am planning to add more features in the future.
 
 ## link:
 [https://wenwenkp.github.io/wenjie/](https://wenwenkp.github.io/wenjie/)
