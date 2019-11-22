@@ -28,7 +28,7 @@ const About = () => {
                 About
             </div>
             <div className="about--avatar">
-                <img src={avatar} alt="My Avatar" />
+                <img src={avatar} alt="My Avatar" className="active" />
             </div>
 
             <div className="about--intro">

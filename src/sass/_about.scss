@@ -16,6 +16,13 @@
         & img {
             border-radius: 50%;
             width: 10vw;
+            transform: translate3d(0, 3rem, 0);
+            opacity: 0;
+            transition: all .3s ease-in-out;
+        }
+        & img.active {
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
         }
     }
     &--skills {
