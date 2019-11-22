@@ -12,11 +12,6 @@ This is a portfolio of mine I deployed in github.
 5. Sass
 6. Npm
 
-## Planned Future Enhancements
-1. Add more contents for introducing myself.
-2. Add real-time communication with socket.io.
-3. Improve styling.
-
 ## Thanks for icons8.com for the Icons
 <a target="_blank" href="https://icons8.com/icons/set/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 

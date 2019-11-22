@@ -6,6 +6,19 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+
+    &--name {
+        color: lightskyblue;
+    }
+
+    &--title {
+        color: lightskyblue;
+    }
+
+    &--soccer {
+        color: lightcoral;
+    }
+
     &--main {
         div {
             text-align: center;

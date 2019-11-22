@@ -53,6 +53,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif; }
+  .home--name {
+    color: lightskyblue; }
+  .home--title {
+    color: lightskyblue; }
+  .home--soccer {
+    color: lightcoral; }
   .home--main div {
     text-align: center;
     margin-top: 15rem; }
